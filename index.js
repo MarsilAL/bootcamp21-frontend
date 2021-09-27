@@ -9,9 +9,7 @@ $(function () {
         contentType: "application/json",
         dataType: 'json',
         success: function (result) {
-            for(let x = 0; x <result.length; x++){
-
-            }
+            console.log(result)
             // First Object
             var id = document.getElementById("todoID")
             id.innerHTML = 'ID: ' + result[3].id
